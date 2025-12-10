@@ -1,0 +1,43 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.image{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(doctor-5.png);
+  position: absolute;
+  background-size:cover;
+  /* filter: blur(4px); */
+  background-attachment: fixed;
+}
+.para{
+  background: rgba(225, 255, 255,0.2);
+  padding: 20px 40px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 150px;
+  
+}
+.para h3{
+  color: blue;
+}
+.button button{
+border-radius: 7px;
+padding:10px 51px 12px 45px;
+background-color:green;
+cursor: pointer;
+font-size: 20px;
+}
+.button{
+  margin-top: 40px;
+  gap: 30px;
+  display:flex;
+  justify-content: center;
+}
+.button button:hover{
+  background-color: greenyellow;
+}
